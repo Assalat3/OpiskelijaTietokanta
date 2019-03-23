@@ -11,21 +11,6 @@ import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import java.util.ArrayList;
 
-/**
- * Toni Ordning, 10.03.2019
- *
- * Pääasiallinen ikkuna. Ohjelman käynnistyessä käyttäjälle näkee listan kursseista, sekä napit kurssien ja opis-
- * kelijoiden lisäämiseen. Myös nappi opiskelijoiden listaamiseen näkyy käyttäjälle. Käyttäjän pitää lisätä opiskelija,
- * ennenkuin hän voi lisätä opiskelijalle suorituksen. Kurssien ja opiskelijoiden lisääminen sekä muokkaaminen
- * avaavat uuden ikkunan, johon käyttäjä syöttää tiedot. Kaikissa kentissä tulee olla syötettä, muuten ohjelma ei toimi.
- * Kun käyttäjiä ja kursseja on lisätty, ne näkyvät ohjelman pääikkunassa uudelleenkäynnistyksen jälkeen. En kerennyt
- * lisäämään funktiota, joka päivittäisi listaa muutosten tapahtuessa. Ohjelma lisää opiskelijoiden ja kurssien perään
- * napit, joiden avulla tietoja voidaan muokata, poistaa sekä tarkastella suorituksia. Suoritusten lisääminen tapahtuu
- * opiskelijanäkymän suoritus-napin kautta. Suoritus-napit avaavat uuden ikkunan, jossa näkyy joko kurssinäkymän kautta
- * kurssiin liittyvät suorituksen tai opiskelijanäkymän kautta opiskelijan suoritukset. Kun suorituksia on lisätty
- * opiskelijalle, ikkuna pitää sulkea ja avata uudelleen suoritusten näkymiseksi.
- */
-
 public class gui extends Application {
 
     public static void main(String[] args){
