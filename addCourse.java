@@ -79,8 +79,8 @@ public class addCourse{
 
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
 
         try{
 
