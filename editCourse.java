@@ -77,8 +77,8 @@ public class editCourse {
 
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
         int courseIDToEdit = Integer.parseInt(IDOfCourse);
 
         try{
@@ -113,8 +113,8 @@ public class editCourse {
     protected static void removeCourse(String removeCourseByID){
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
         int courseIDToEdit = Integer.parseInt(removeCourseByID);
 
         try{
@@ -191,8 +191,8 @@ public class editCourse {
 
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
 
         try {
             //Yhdistetään tietokantaan
