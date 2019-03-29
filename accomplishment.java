@@ -118,8 +118,8 @@ public class accomplishment {
 
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
         int studentIDToFind = Integer.parseInt(studentIdentifier);
 
         try {
@@ -161,8 +161,8 @@ public class accomplishment {
     private static void addAccomplishmentToDB(String student, String course, String grade, String date) {
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
 
         try {
             //Yhdistetään tietokantaan
@@ -193,8 +193,8 @@ public class accomplishment {
                                             String student, String course, String grade, String date) {
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
         int accomplishmentCourseIDToEdit = Integer.parseInt(courseID);
         int accomplishmentStudentIDToEdit = Integer.parseInt(studentID);
 
@@ -230,8 +230,8 @@ public class accomplishment {
     private static void removeAccomplishment(String studentID, String courseID) {
         //DB info
         final String dburl = "jdbc:mysql://localhost:3306/opsuor";
-        final String dbusername = "root";
-        final String dbpass = "W0tM8J0p";
+        final String dbusername = "USERNAME";
+        final String dbpass = "PASSWORD";
         int courseIDToEdit = Integer.parseInt(courseID);
         int studentIDToEdit = Integer.parseInt(studentID);
 
